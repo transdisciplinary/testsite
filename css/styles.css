@@ -5,7 +5,7 @@
 }
 
 img {
-    size: 100%;
+    size: 10%;
 }
 
 p {
@@ -13,6 +13,12 @@ p {
     font-size: 3rem;
 }
 
+body {
+    background-image: url("https://arweave.net/yCFIM6ndGVrdqqpt024DVLqOLxmJwZF3bJYTZuXeAlA");
+    background-position: cover;
+}
+
 h1 {
-    background-image: url (https://arweave.net/yCFIM6ndGVrdqqpt024DVLqOLxmJwZF3bJYTZuXeAlA);
+    background-color: #777;
+    text-decoration: double;
 }
