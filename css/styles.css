@@ -1,24 +1,95 @@
 * {
+}
+html {
     box-sizing: border-box;
     size: 62.5%;
-    margin: 0 auto;
+    max-width: 60%;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 img {
-    size: 10%;
+    size: 100%;
 }
 
 p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 3rem;
+    font-size: 1.5rem;
 }
 
-body {
-    background-image: url("https://arweave.net/yCFIM6ndGVrdqqpt024DVLqOLxmJwZF3bJYTZuXeAlA");
-    background-position: cover;
+header {
+    align-items: flex-end;
+    display: flex;
+    background-image: url("https://arweave.net/57w-53udutJml2hWc9Z-Wwi4FmSwLzpN0dJSAuEO8yg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 10%;
+    justify-content: space-between;
+    
+}
+
+header p {
+    color: #ccc;
+    margin-right: 2%;
 }
 
 h1 {
-    background-color: #777;
-    text-decoration: double;
+    margin-left: 10%;
+    padding: 20% 20% 18.2% 20%;
+    background-image: url(../img/capibara.png);
+    background-size: cover;
+    opacity: 78%;
+}
+
+h1 a {
+    opacity: 0;
+}
+
+.section01 {
+    display: flex;
+    color: #ccc;
+    justify-content: space-between;
+}
+
+body {
+    background-image: url("https://arweave.net/w78F-pIOSwpBZRYE1znFa8sl0uPX3mmcwoArcjdCzr0");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.posts {
+    align-items: baseline;
+    background-image: linear-gradient(#0007, #fff1);
+    list-style: none;
+    margin: 0 0 0 10%;
+    padding: 5% 5% 0 5%;
+    min-width: 30%;
+}
+
+li {
+    min-width: 100%;
+    margin-bottom: 10%;
+}
+
+li a {
+    text-decoration: none;
+    color: #5a0000;
+}
+
+li a:hover {
+    text-decoration: dashed;
+    color: #ccc;
+}
+
+li img {
+
+    width: 100%;
+    transition: width 0.3s;
+}
+
+li img:hover {
+
+    width: 102%;
 }
